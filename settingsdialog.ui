@@ -35,8 +35,41 @@
      </item>
     </layout>
    </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>（关闭窗口时自动保存配置）</string>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>toolButton_potplayerExecutable</sender>
+   <signal>clicked()</signal>
+   <receiver>SettingsDialog</receiver>
+   <slot>selectPotplayerExcutable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>141</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>688</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>selectPotplayerExcutable()</slot>
+ </slots>
 </ui>
