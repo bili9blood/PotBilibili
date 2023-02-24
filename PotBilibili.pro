@@ -1,4 +1,4 @@
-QT       += core gui network
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -12,7 +12,8 @@ SOURCES += \
     danmaku2ass_native/AssClass.cpp \
     danmaku2ass_native/danmaku2ass.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    settingsdialog.cpp
 
 HEADERS += \
     danmaku2ass_native/AssClass.hpp \
@@ -22,10 +23,12 @@ HEADERS += \
     danmaku2ass_native/rapidxml/rapidxml_iterators.hpp \
     danmaku2ass_native/rapidxml/rapidxml_print.hpp \
     danmaku2ass_native/rapidxml/rapidxml_utils.hpp \
-    mainwindow.h
+    mainwindow.h \
+    settingsdialog.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    settingsdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

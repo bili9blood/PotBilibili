@@ -2,25 +2,20 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QMessageBox>
-#include <QSettings>
-
-#include "danmaku2ass_native/danmaku2ass.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
+namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
   Q_OBJECT
 
- public:
+public:
   MainWindow(QWidget *parent = nullptr);
   ~MainWindow();
 
- private:
+private:
   Ui::MainWindow *ui;
 };
-#endif  // MAINWINDOW_H
+#endif // MAINWINDOW_H

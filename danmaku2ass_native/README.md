@@ -5,7 +5,7 @@
 
 # Features
 
-Convert comments to ASS subtitle，you can play it with most of media players.
+Convrt comments to ASS subtitle，you can play it with most of media players.
 
 Written in C ++, convert ten thousand comments just 0.05 seconds, not depend on any third-party libraries, easily to embed.
 
@@ -18,7 +18,7 @@ Only support bilibili format , other websites will be added in soon.
 
 ![](http://blog.eqoe.cn/images/1428559449093.png)
 
-# Compile
+# Complie
 
 CMake 2.6 or higher and C++ 11 compiler required. (GCC 4.8+, Clang 3.5+, MSVC 2013+ are tested) 
 
