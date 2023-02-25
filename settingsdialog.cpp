@@ -11,10 +11,14 @@ SettingsDialog::SettingsDialog(QWidget *parent)
 
 SettingsDialog::~SettingsDialog() { delete ui; }
 
-void SettingsDialog::selectPotplayerExcutable()
-{
-
+void SettingsDialog::initWhenNotExists() {
+  if (!QFile("settings.ini").exists()) {
+    this->exec();
+    QMessageBox::information(this, "提示", "配置文件不存在，开启初次配置");
+  }
 }
+
+void SettingsDialog::selectPotplayerExcutable() {}
 
 void SettingsDialog::closeEvent(QCloseEvent *) {
   settings.setValue("potplayerExcutable",

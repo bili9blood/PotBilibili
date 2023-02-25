@@ -5,6 +5,7 @@
 #include <QCoreApplication>
 #include <QDialog>
 #include <QFile>
+#include <QFileDialog>
 #include <QMessageBox>
 #include <QSettings>
 
@@ -18,6 +19,7 @@ class SettingsDialog : public QDialog {
  public:
   explicit SettingsDialog(QWidget *parent = nullptr);
   ~SettingsDialog();
+  void initWhenNotExists();
 
  private:
   Ui::SettingsDialog *ui;
