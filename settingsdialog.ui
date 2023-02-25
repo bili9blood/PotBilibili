@@ -68,7 +68,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot; style=&quot;line-height: 50%;&quot;&gt;（PotPlayer有桌面快捷方式可以选，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;如果没有可以选PotPlayer安装路径下带PotPlayer图标的exe文件）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot; style=&quot;line-height: 50%;&quot;&gt;（PotPlayer如果有桌面快捷方式可以选，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;如果没有可以选PotPlayer安装路径下带PotPlayer图标的exe文件）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
